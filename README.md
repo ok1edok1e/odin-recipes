@@ -67,7 +67,7 @@ The Recommended section contains cards with ```links``` to other recipes for qui
 
 ![Inner page](https://github.com/ok1edok1e/odin-recipes/blob/main/assets/recipe-recommended.jpg?raw=true)
 
----
+<br>
 
 <p align="center">
 All pages were developed based on content taken from - <a href="https://www.allrecipes.com" target="_blank">allrecipes.com</a>.
