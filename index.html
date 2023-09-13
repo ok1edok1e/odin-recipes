@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Odin Recipes</title>
+  <script src="https://kit.fontawesome.com/2521af26e2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <main>
+    <header>
+      <div class="logo-odin">
+        <a href="https://www.theodinproject.com/" target="_blank">
+          <img src="./images/logo-odin-project.webp" alt="Odin Project">
+        </a>
+        <h1>Odin Recipes</h1>
+      </div>
+      <div class="source">
+        <small>More recipes <em>on</em></small>
+        <a href="https://www.allrecipes.com/" target="_blank" alt="allrecipes.com"><img
+            class="logo-allrecipes" src="./images/logo-allrecipes.png" alt="allrecipes.com"></a>
+      </div>
+    </header>
+    <section>
+      <div class="card">
+        <a class="card_link" href="../odin-recipes/recipes/world-best-lasagna.html"></a>
+        <div>
+          <img src="../odin-recipes/images/world-best-lasagna.webp" alt="World's Best Lasagna">
+        </div>
+        <div class="info">
+          <h6>MEAT LASAGNA RECIPES</h6>
+          <h3>World's Best Lasagna</h3>
+        </div>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <small>20,175 ratings</small>
+        </div>
+      </div>
+      <div class="card">
+        <a class="card_link" href="../odin-recipes/recipes/marinated-flank-steak.html"></a>
+        <div>
+          <img class="image" src="../odin-recipes/images/marinated-flank-steak.webp"
+            alt="Marinated Flank Steak">
+        </div>
+        <div class="info">
+          <h6>FLANK STEAK RECIPES</h6>
+          <h3>Marinated Flank Steak</h3>
+        </div>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <small>1,698 ratings</small>
+        </div>
+        <!-- <a href="../odin-recipes/recipes/world-best-lasagna.html">World's Best Lasagna</a> -->
+      </div>
+      <div class="card">
+        <a class="card_link" href="../odin-recipes/recipes/ramen-noodle-soup.html"></a>
+        <div>
+          <img class="image" src="../odin-recipes/images/ramen-noodle-soup.webp"
+            alt="Ramen Noodle Soup">
+        </div>
+        <div class="info">
+          <h6>NOODLE SOUP RECIPES</h6>
+          <h3>Ramen Noodle Soup</h3>
+        </div>
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <small>115 ratings</small>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <small><b>Recipes</b> <em>for</em> Foundation Course <em>of</em> <a
+          href="https://www.theodinproject.com/" target="_blank">Odin Project</a></small>
+      <small>Made <em>with</em> <i class="fas fa-heart"></i> <em>by</em> Alexa Freedman</small>
+    </footer>
+  </main>
+</body>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+  :root {
+    --color-background: #ffffff;
+    --color-main: #fcfcfc;
+    --color-main-border: #f2f2f2;
+    --color-blockquote: #f5f5f5;
+    --color-accent: #d54215;
+    --color-button-border: #dedede;
+    --color-text-primary: #202020;
+    --color-text-secondary: #404040;
+    --color-text-tertiary: #808080;
+    --color-shadow: #cccccc;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  .logo-odin {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    height: auto;
+  }
+
+  .logo-odin img {
+    width: 40px;
+    height: 40px;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-main);
+    border: 1px solid var(--color-main-border);
+    border-radius: 8px;
+    padding: 48px;
+    width: 1000px;
+    height: 640px;
+  }
+
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  section {
+    display: flex;
+    gap: 24px;
+  }
+
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: var(--color-text-primary);
+  }
+
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: var(--color-text-primary);
+  }
+
+  h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    text-transform: uppercase;
+    padding-bottom: 4px;
+  }
+
+  img {
+    width: 384px;
+    height: 256px;
+    object-fit: cover;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  a {
+    color: var(--color-accent);
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  em {
+    color: var(--color-text-tertiary);
+  }
+
+  .card {
+    width: 280px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 8px;
+    padding: 0 0 24px;
+    box-shadow: 0 1px 2px var(--color-shadow);
+    transition: ease-out .5s;
+    overflow: hidden;
+  }
+
+  .card img {
+    width: 100%;
+    height: 192px;
+  }
+
+  .card:hover {
+    box-shadow: 0 16px 16px -8px var(--color-shadow);
+    scale: 1.03;
+  }
+
+
+  .info {
+    padding: 24px 16px 8px;
+  }
+
+  .rating {
+    padding: 0 16px;
+  }
+
+  .fas {
+    color: var(--color-accent);
+    font-size: 12px;
+  }
+
+  .card_link {
+    position: absolute;
+    width: 384px;
+    height: 375px;
+    cursor: pointer;
+  }
+
+  .logo-allrecipes {
+    width: auto;
+    height: 20px;
+  }
+
+  .source {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+</style>
+
+</html>
