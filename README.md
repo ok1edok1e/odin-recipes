@@ -3,7 +3,7 @@
 <h1 align="center">Odin Recipes</h1>
 <p align="center">
   <strong>First project</strong> <em>from</em> Foundation Course
-<em>of</em> <a href="https://www.theodinproject.com/">The Odin Project</a>.
+<em>of</em> <a href="https://www.theodinproject.com/" target="_blank">The Odin Project</a>.
 </p>
 
 <p align="center">
@@ -70,8 +70,8 @@ The Recommended section contains cards with ```links``` to other recipes for qui
 ---
 
 <p align="center">
-All pages were developed based on content taken from - <a href="https://www.allrecipes.com">allrecipes.com</a>.
+All pages were developed based on content taken from - <a href="https://www.allrecipes.com" target="_blank">allrecipes.com</a>.
 </p>
 <p align="center">
-Made <em>with</em> ❤ <em>by</em> <a href="https://github.com/ok1edok1e/odin-recipes">Alex Freedman</a>.
+Made <em>with</em> ❤ <em>by</em> <a href="https://github.com/ok1edok1e/odin-recipes" target="_blank">Alex Freedman</a>.
 </p>
