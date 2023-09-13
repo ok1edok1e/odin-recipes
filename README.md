@@ -5,27 +5,22 @@
   <strong>First project</strong> <em>from</em> Foundation Course
 <em>of</em> <a href="https://www.theodinproject.com/">The Odin Project</a>.
 </p>
+
 <p align="center">
   <a href="#introduction">Introduction</a> ·
   <a href="#main-page">Main page</a> ·
   <a href="#inner-page">Inner page</a>
 </p>
 
-<style>
-  em {
-    color: #808080;
-  }
-</style>
+<br>
 
----
-
-### Introduction
+## Introduction
 
 This is where it all begins! Odin Recipes is the first project from Foundation Course of The Odin Project. It's time to put into practice all my acquired **HTML** knowledge. I also learned a little about **CSS** to bring the project to an acceptable look. It took a little hard work to get it looking acceptable, but it was worth it. In this project, I have created a small section that shows three exciting recipes in my opinion.
 
 <br>
 
-### Main page
+## Main page
 
 The main section consists of a main index page with links to a few selected recipes. Each recipe contains an ```image```, ```title``` and ```rating``` briefly describing the internal content. An effect has also been added when ```hovering``` over a recipe for more intuitive navigation.
 
@@ -34,7 +29,7 @@ The main section consists of a main index page with links to a few selected reci
 
 <br>
 
-### Inner page
+## Inner page
 
 The structure of the inner page is distributed as follows:
 
@@ -50,7 +45,7 @@ The ```header``` consists of ```breadcrumbs```, ```heading```, optional ```butto
 
 <br>
 
-What follows is a brief introduction and an ```unordered list``` of Ingredients section.
+What follows is a brief introduction and an ```unordered list``` of the Ingredients section.
 
 ![Inner page](https://github.com/ok1edok1e/odin-recipes/blob/main/assets/recipe-ingredients.jpg?raw=true)
 
