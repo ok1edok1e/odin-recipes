@@ -7,6 +7,12 @@
 </p>
 
 <p align="center">
+  <a href="https://ok1edok1e.github.io/odin-recipes/" target="_blank">Go to Live Preview</a>
+</p>
+
+<br>
+
+<p align="center">
   <a href="#introduction">Introduction</a> ·
   <a href="#main-page">Main page</a> ·
   <a href="#inner-page">Inner page</a>
