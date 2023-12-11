@@ -79,5 +79,5 @@ The Recommended section contains cards with ```links``` to other recipes for qui
 All pages were developed based on content taken from - <a href="https://www.allrecipes.com" target="_blank">allrecipes.com</a>.
 </p>
 <p align="center">
-Made <em>with</em> ❤ <em>by</em> <b>Alex Freedman.</b>
+Made <em>with</em> ❤ <em>by</em> <b>Alex Anufrienko.</b>
 </p>
